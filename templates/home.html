@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Alidio{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+  Seu arquivo está em: {{ wb }} 
+  <p><a href="{% url 'logout' %}">logout</a></p>
+{% else %}
+  <div class = "center">
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">login</a>
+  </div>
+{% endif %}
+<!-- <img src="{% static "image/logo.jpg" %}" alt="My image"> -->
+{% endblock %}

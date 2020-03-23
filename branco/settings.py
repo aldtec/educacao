@@ -87,7 +87,7 @@ DATABASES = {
         'USER': 'aldtec1_db_admin',
         'PASSWORD': 'tshF6Dh4aEgj',
         'HOST': 'johnny.heliohost.org',
-        'PORT': '2083',
+        'PORT': '3306',
     }
     #'default': {
     #    'ENGINE': 'django.db.backends.sqlite3',

@@ -1,5 +1,5 @@
 asgiref==3.2.3
-Django==3.0.4
+Django==3.0.14
 django-annoying==0.10.6
 et-xmlfile==1.0.1
 jdcal==1.4.1
